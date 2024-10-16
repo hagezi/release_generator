@@ -123,7 +123,7 @@ def create_release(new_version, release_body):
     data = {
         "tag_name": new_version,
         "target_commitish": "main",
-        "name": f"Release {new_version}",
+        "name": f"{new_version}",
         "body": release_body,
         "draft": False,
         "prerelease": False
